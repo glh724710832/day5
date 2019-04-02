@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:id="@+id/home_log"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:background="@drawable/frame"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/home_log_test1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="網易"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="36sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/home_log_test2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="搜"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/home_log_test3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="直播"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:background="@drawable/frame">
+            <TextView
+                android:id="@+id/menu_test1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="头条"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_test2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="娱乐"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/menu_test3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="体育"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/menu_test4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="网易号"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/menu_test5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="武汉"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/menu_test6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="V"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/frame">
+
+        <LinearLayout
+            android:id="@+id/news_1_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_1_textword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:text="威竟斯24+9森林狼OT拒勇士逆转库里37+5KD23+12"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/news_1_log"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/news_1_log1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+
+                    android:text="网易体育"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_1_log2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="right"
+                    android:text="1.万跟帖"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_1_log3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="x"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/news_1_pictule"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/frame">
+
+        <LinearLayout
+            android:id="@+id/news_2_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_2_textword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:text="威竟斯24+9森林狼OT拒勇士逆转库里37+5KD23+12"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/news_2_log"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/news_2_log1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+
+                    android:text="网易体育"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_2_log2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="right"
+                    android:text="1.万跟帖"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_2_log3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="x"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/news_2_pictule"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/frame">
+
+        <LinearLayout
+            android:id="@+id/news_3_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_3_textword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:text="威竟斯24+9森林狼OT拒勇士逆转库里37+5KD23+12"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/news_3_log"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/news_3_log1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+
+                    android:text="网易体育"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_3_log2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="right"
+                    android:text="1.万跟帖"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_3_log3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="x"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/news_3_pictule"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news_4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/frame">
+
+        <LinearLayout
+            android:id="@+id/news_4_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_4_textword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:text="威竟斯24+9森林狼OT拒勇士逆转库里37+5KD23+12"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/news_4_log"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/news_4_log1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+
+                    android:text="网易体育"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_4_log2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="right"
+                    android:text="1.万跟帖"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_4_log3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="x"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/news_4_pictule"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news_5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/frame">
+
+        <LinearLayout
+            android:id="@+id/news_5_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_5_textword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:text="威竟斯24+9森林狼OT拒勇士逆转库里37+5KD23+12"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/news_5_log"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/news_5_log1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+
+                    android:text="网易体育"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_5_log2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="right"
+                    android:text="1.万跟帖"
+                    android:paddingLeft="10dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+                <TextView
+                    android:id="@+id/news_5_log3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="x"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="normal"  />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/news_5_pictule"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:background="@drawable/frame">
+        <TextView
+            android:id="@+id/bottomMenu_test1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="头条"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/bottomMenu_test2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="娱乐"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bottomMenu_test3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="体育"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bottomMenu_test4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="网易号"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bottomMenu_test5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="武汉"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
